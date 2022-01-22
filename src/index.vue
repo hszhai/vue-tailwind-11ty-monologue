@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <title>Project ptwo</title>
-        <!--<script src="https://cdn.tailwindcss.com"></script>-->
-        <link rel="stylesheet" href="/css/styles.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <!--<link rel="stylesheet" href="/css/styles.css">-->
     </head>
     <body class="bg-purple-200 ">
         <Header />
