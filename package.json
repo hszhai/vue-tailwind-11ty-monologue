@@ -1,0 +1,19 @@
+{
+  "name": "ptwo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:tailwind": "npx tailwindcss -i src/css/tailwind.css -o dist/css/styles.css --minify",
+    "build:eleventy": "ELEVENTY_PRODUCTION=true npx @11ty/eleventy"
+  },
+  "keywords": [],
+  "author": "@reddotblues",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy-plugin-vue": "^0.7.1",
+    "lorem-ipsum": "^2.0.4",
+    "tailwindcss": "^3.0.15"
+  }
+}
